@@ -1,3 +1,4 @@
+// TDD Test Assignment 1, Pair: Angwen Sarah and Kabwaga Veronica Amooti
 // const assertEqual = require('assert');
 // const {multiply} = require('../multiply');
 // 
@@ -32,6 +33,15 @@
 //     });
 // });
 
+// const assertEqual = require('assert');
+// const { multiply } = require('../multiply');
+// describe('multiply',()=> {
+//     it('should return 1035 when multipling 23 * 45' , () => {
+//      assertEqual(multiply(23, 45), 23 * 45) ;
+//     });
+// });
+
+
 const assertEqual = require('assert');
 const { multiply } = require('../multiply');
 describe('multiply',()=> {
@@ -39,6 +49,7 @@ describe('multiply',()=> {
      assertEqual(multiply(23, 45), 23 * 45) ;
     });
 });
+
 
 
 
