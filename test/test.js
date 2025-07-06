@@ -24,13 +24,22 @@
 //     });
 // });
 
+// const assertEqual = require('assert');
+// const { multiply } = require('../multiply');
+// describe('multiply',()=> {
+//     it('should return 16 when multipling 4 * 4' , () => {
+//      assertEqual(multiply(4 , 4), 16) ;
+//     });
+// });
+
 const assertEqual = require('assert');
 const { multiply } = require('../multiply');
 describe('multiply',()=> {
-    it('should return 16 when multipling 4 * 4' , () => {
-     assertEqual(multiply(4 , 4), 16) ;
+    it('should return 1035 when multipling 23 * 45' , () => {
+     assertEqual(multiply(23, 45), 23 * 45) ;
     });
 });
+
 
 
 
