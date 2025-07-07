@@ -23,6 +23,9 @@ describe('factorial()', () => {
 //   it('should return 120 for 5!', () => {
 //     assert.strictEqual(factorial(5), 120);
 //   });
+    // it('should return 720 for 6!', () => {
+    //     assert.strictEqual(factorial(6), 720);
+    // });
 
   it('should return 3628800 for 10!', () => {
     assert.strictEqual(factorial(10), 3628800);
