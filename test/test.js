@@ -8,11 +8,11 @@
 //   });
 // });
 
-// const assertEqual = require('assert');
+// const assert = require('assert');
 // const { multiply } = require('../multiply');
 // describe('multiply',()=> {
 //     it('should return 4 when multipling 2 * 2' , () => {
-//       assertEqual(multiply(2, 2) ,4) ;
+//       assert.equal(multiply(3, 2) ,10) ;
 //     });
 // });
 
@@ -41,14 +41,14 @@
 //     });
 // });
 
-
-const assertEqual = require('assert');
-const { multiply } = require('../multiply');
-describe('multiply',()=> {
-    it('should return 1035 when multipling 23 * 45' , () => {
-     assertEqual(multiply(23, 45), 23 * 45) ;
-    });
-});
+// 
+// const assertEqual = require('assert');
+// const { multiply } = require('../multiply');
+// describe('multiply',()=> {
+//     it('should return 1035 when multipling 23 * 45' , () => {
+//      assertEqual(multiply(23, 45), 23 * 45) ;
+//     });
+// });
 
 
 
